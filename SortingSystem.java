@@ -18,7 +18,7 @@ public class SortingSystem {
         return dataList.stream().mapToInt(i -> i).toArray();
     }
 
-    a
+    
     public static void main(String[] args) {
         String[] filePaths = {
             "conjuntosDeDados/aleatorio_100.csv", "conjuntosDeDados/aleatorio_1000.csv", "conjuntosDeDados/aleatorio_10000.csv", 
