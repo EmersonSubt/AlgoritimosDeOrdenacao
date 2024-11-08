@@ -3,7 +3,7 @@ public class QuickSort {
         if (inicio < fim) {
             int pi = parti(array, inicio, fim);
 
-            // Ordena as partes recursivamente
+            
             quickSort(array, inicio, pi - 1);
             quickSort(array, pi + 1, fim);
         }
@@ -17,7 +17,7 @@ public class QuickSort {
             if (array[j] <= pivot) {
                 i++;
 
-                // Troca os elementos
+                
                 int dadoTemporario = array[i];
                 array[i] = array[j];
                 array[j] = dadoTemporario;

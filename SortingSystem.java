@@ -3,7 +3,7 @@ import java.util.*;
 
 public class SortingSystem {
 
-    // Método para ler dados de um arquivo e retornar um array de inteiros
+    
     public static int[] readDataFromFile(String filePath) throws IOException {
         List<Integer> dataList = new ArrayList<>();
         try (BufferedReader br = new BufferedReader(new FileReader(filePath))) {
@@ -18,7 +18,7 @@ public class SortingSystem {
         return dataList.stream().mapToInt(i -> i).toArray();
     }
 
-    // Método principal
+    a
     public static void main(String[] args) {
         String[] filePaths = {
             "conjuntosDeDados/aleatorio_100.csv", "conjuntosDeDados/aleatorio_1000.csv", "conjuntosDeDados/aleatorio_10000.csv", 

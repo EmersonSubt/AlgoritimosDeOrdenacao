@@ -5,7 +5,7 @@ public class InsertionSort {
             int chave = array[i];
             int j = i - 1;
 
-            // Move elementos que são maiores que o `key` para uma posição à frente
+           
             while (j >= 0 && array[j] > chave) {
                 array[j + 1] = array[j];
                 j = j - 1;
@@ -14,3 +14,4 @@ public class InsertionSort {
         }
     }
 }
+a
